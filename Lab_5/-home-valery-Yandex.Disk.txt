@@ -1,0 +1,1 @@
+/home/valery/Yandex.Disk/Projects_and_studying/Plasma_prog_course/Lab_5/lab5_drawchar_template.cpp
