@@ -53,7 +53,9 @@ double RandMaxwell(double Vt)
 	*f0 = GetRand(0.0,1.0);
 	if (*f0 <= fmaxwell(*v0))
 	{
-		return *v0;
+		double tmp = *v0;
+		delete f0, v0;
+		return tmp;
 	}
 	else
 	{
